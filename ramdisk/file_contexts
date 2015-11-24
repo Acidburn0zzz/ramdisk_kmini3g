@@ -1239,3 +1239,5 @@
 
 /system/bin/tsdaemon            u:object_r:tsdaemon_exec:s0
 
+# SuperSU 
+/su(/.*)?           u:object_r:system_file:s0

@@ -1,0 +1,16 @@
+on init
+    # create mount point for SuperSU
+    mkdir /su 0755 root root
+
+on post-fs-data
+    # mount SuperSU image
+    cp /cache/su.img /data/su.img
+    rm /cache/su.img
+    chmod 0600 /data/su.img
+    mount ext4 loop@/data/su.img /su noatime
+
+
+service daemonsu /su/bin/daemonsu --auto-daemon 
+    class late_start 
+    user root 
+    oneshot
