@@ -212,10 +212,6 @@ service TvoutService_C /system/bin/bintvoutservice
      group graphics
 on property:ro.SecEDS.enable=false
     stop TvoutService_C
-    disabled
-    user system
-    socket pps stream 0660 system system
-    group system graphics
 
 #on property:init.svc.surfaceflinger=stopped
 #   stop ppd

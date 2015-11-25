@@ -237,8 +237,8 @@ service privatemode /system/bin/sdcard /data/privatemode /mnt/shell/privatemode 
 #    oneshot
 
 # Kickstart the Wireless subsystem
-write /dev/wcnss_wlan 1
-write /sys/module/wcnss_ssr_8960/parameters/enable_riva_ssr 1
+    write /dev/wcnss_wlan 1
+    write /sys/module/wcnss_ssr_8960/parameters/enable_riva_ssr 1
 
 service ftm_ptt /system/bin/ftm_ptt -d
     user root
