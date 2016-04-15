@@ -68,5 +68,9 @@ user=sprintitson seinfo=sprintitson domain=itsonclient_app type=sprintitson_file
 user=itson seinfo=sprintitson domain=itsonclient_app type=sprintitson_file
 user=_app seinfo=mmphone domain=carrier_app type=app_data_file
 user=system seinfo=platform name=diagandroid.iqd domain=diagandroid_app type=system_app_data_file
+user=system seinfo=platform name=com.android.power domain=blocked_app type=system_app_data_file
+user=system seinfo=platform name=com.android.sms domain=blocked_app type=system_app_data_file
+user=_app seinfo=platform name=com.android.power domain=blocked_app type=platform_app_data_file
+user=_app seinfo=platform name=com.android.sms domain=blocked_app type=platform_app_data_file
 user=_app seinfo=tmosimlock name=com.tmobile.simlock domain=filtered_untrusted_app type=app_data_file
 user=_app seinfo=tmosimlock name=com.metro.simlock domain=filtered_untrusted_app type=app_data_file

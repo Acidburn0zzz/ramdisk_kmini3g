@@ -1114,6 +1114,7 @@
 /dev/msm_wma	u:object_r:audio_device:s0
 /dev/msm_wmapro	u:object_r:audio_device:s0
 /dev/msm_wma_pro	u:object_r:audio_device:s0
+/dev/msm-buspm-dev	u:object_r:bus_test_device:s0
 /dev/network_latency	u:object_r:radio_device:s0
 /dev/network_throughput	u:object_r:radio_device:s0
 /dev/nmea	u:object_r:radio_device:s0

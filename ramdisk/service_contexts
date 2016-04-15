@@ -239,6 +239,7 @@ DPU                                         u:object_r:system_server_service:s0
 dualscreen                                  u:object_r:system_server_service:s0
 edge                                        u:object_r:system_server_service:s0
 emailksproxy                                u:object_r:system_server_service:s0
+EngineeringModeService                      u:object_r:system_server_service:s0
 epdg                                        u:object_r:system_server_service:s0
 execute                                     u:object_r:system_server_service:s0
 EXT_CONTROL_DEVICE_SERVICE                  u:object_r:system_server_service:s0
@@ -248,6 +249,7 @@ firewall                                    u:object_r:system_server_service:s0
 gamemanager                                 u:object_r:system_server_service:s0
 harmony_eas_service                         u:object_r:system_server_service:s0
 healthcover                                 u:object_r:system_server_service:s0
+hongbao_mode_service                        u:object_r:system_server_service:s0
 injection                                   u:object_r:system_server_service:s0
 keyguard                                    u:object_r:system_server_service:s0
 kiesusb                                     u:object_r:system_server_service:s0
